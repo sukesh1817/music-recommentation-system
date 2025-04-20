@@ -1,0 +1,38 @@
+.app-container {
+    text-align: center;
+    font-family: sans-serif;
+    padding: 20px;
+  }
+  
+  .mood-selector button {
+    margin: 10px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background-color: #f0f0f0;
+    transition: 0.2s;
+  }
+  
+  .song-card {
+    margin: 10px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    width: 60%;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .mood-happy { background-color: #fffbe6; }
+  .mood-sad { background-color: #e6f0ff; }
+  .mood-chill { background-color: #e6fff9; }
+  .mood-focused { background-color: #f0e6ff; }
+  
+  .song-card button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
